@@ -35,6 +35,9 @@ const agent = workflow.compile();
 agentDebug(agent, 3001)
 ```
 
+# UI
+![UI](./screenshot.png)
+
 # Local development
 ```bash 
 git clone --recursive git@github.com:sebps/agent-debug-workspace.git
