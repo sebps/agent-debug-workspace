@@ -1,6 +1,6 @@
 [submodule "agent-debug-ui"]
 	path = agent-debug-ui
-	url = https://github.com/sebps/agent-debug-ui
+	url = git@github.com:sebps/agent-debug-ui.git
 [submodule "agent-debug-landing"]
 	path = agent-debug-landing
 	url = git@github.com:sebps/agent-debug-landing.git
