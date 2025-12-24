@@ -8,7 +8,7 @@ npm install agent-debug
 
 # Usage
 ```node
-import agentDebug from 'agent-debug';
+import { debug } from 'agent-debug';
 
 import { StateGraph, MessagesAnnotation, START, END } from "@langchain/langgraph";
 import { ChatOpenAI } from "@langchain/openai";
@@ -31,14 +31,9 @@ const workflow = new StateGraph(MessagesAnnotation)
 
 const agent = workflow.compile();
 
-// spin-up agent debug server on port 3001
-agentDebug(agent, 3001)
+// spin-up agent debug server on port 3001 ( port 8888 by default )
+debug(agent, 3001)
 ```
 
 # UI
 ![UI](./screenshot.png)
-
-# Local development
-```bash 
-git clone --recursive git@github.com:sebps/agent-debug-workspace.git
-```
