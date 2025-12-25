@@ -7,3 +7,6 @@
 [submodule "agent-debug"]
 	path = agent-debug
 	url = git@github.com:sebps/agent-debug.git
+[submodule "agent-debug-test"]
+	path = agent-debug-test
+	url = git@github.com:sebps/agent-debug-test.git
